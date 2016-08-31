@@ -1,8 +1,12 @@
+<?php
+	//variables
+	$company_name = "Imran's Restaurant";
+?>
 
 <!DOCTYPE html>
 <html>
 <head>
-	<title></title>
+	<title><?php echo TITLE; ?></title>
 	<link href="/assets/styles.css" rel="stylesheet">
 </head>
 

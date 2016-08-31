@@ -17,11 +17,13 @@
 					
 					<em>Sunday</em> <br>
 					5:00pm-9.00pm <br>
+					<?php include('include/store-hours.php'); ?>
+					
 				</div><!-- column -->
 			
 			</div><!-- footer -->
 			
-				<small>&copy;2016 SeyKad</small>
+				<small>&copy;<?php echo date('Y'); ?> <?php echo $company_name; ?></small>
 		
 		</div><!-- content -->
 	
